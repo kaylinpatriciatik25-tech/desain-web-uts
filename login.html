@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign In</title>
+
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <main class="login-container">
+
+        <!-- KOLOM KIRI: ILUSTRASI -->
+        <section class="illustration-section" aria-label="Clover illustration">
+
+            <img
+                src="clover.jpg"
+                alt="Clover illustration"
+                class="clover-image">
+
+        </section>
+
+
+        <!-- KOLOM KANAN: FORM LOGIN -->
+        <section class="login-section">
+
+            <div class="login-wrapper">
+
+                <!-- LOGO -->
+                <div class="logo" aria-label="Logo">
+                    ☘
+                </div>
+
+
+                <!-- HEADER -->
+                <header class="login-header">
+
+                    <h1>Welcome back!</h1>
+
+                    <p>
+                        Sign in to continue to your account.
+                    </p>
+
+                </header>
+
+
+                <!-- GOOGLE SIGN IN -->
+                <button
+                    type="button"
+                    class="google-button"
+                    aria-label="Sign in with Google">
+
+                    <span class="google-icon">G</span>
+
+                    <span>Sign in with Google</span>
+
+                </button>
+
+
+                <!-- PEMISAH -->
+                <div class="divider" aria-hidden="true">
+
+                    <span>or</span>
+
+                </div>
+
+
+                <!-- FORM -->
+                <form class="login-form">
+
+                    <!-- EMAIL -->
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            autocomplete="email"
+                            required>
+
+                    </div>
+
+
+                    <!-- PASSWORD -->
+                    <div class="form-group">
+
+                        <div class="password-label">
+
+                            <label for="password">
+                                Password
+                            </label>
+
+                            <a
+                                href="#"
+                                class="forgot-password">
+                                Forgot Password?
+                            </a>
+
+                        </div>
+
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Enter your password"
+                            autocomplete="current-password"
+                            required>
+
+                    </div>
+
+
+                    <!-- REMEMBER ME -->
+                    <div class="remember-container">
+
+                        <label class="remember-label">
+
+                            <input
+                                type="checkbox"
+                                id="remember"
+                                name="remember">
+
+                            <span>Remember Me</span>
+
+                        </label>
+
+                    </div>
+
+
+                    <!-- SIGN IN -->
+                    <button
+                        type="submit"
+                        class="signin-button">
+
+                        Sign In
+
+                    </button>
+
+                </form>
+
+
+                <!-- CREATE ACCOUNT -->
+                <p class="register-text">
+
+                    Don't have an account?
+
+                    <a href="#">
+                        Create Account
+                    </a>
+
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
